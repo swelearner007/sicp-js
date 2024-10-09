@@ -1,0 +1,1 @@
+/* Code will show error as 2 is not a function */
