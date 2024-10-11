@@ -3,7 +3,7 @@ function repeated(f, n) {
         return x => f(x);
     }
 
-    if(n > 0)
+    if(n > 1)
         return x => f(repeated(f, n-1)(x));
 }
 
